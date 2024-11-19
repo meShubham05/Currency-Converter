@@ -85,13 +85,11 @@ public class CurrencyConvertor extends Frame implements ItemListener, ActionList
         setVisible(false);
         dispose();
         System.exit(0);
-    }
-  
+    }  
     public static void main(String args[]) {
         CurrencyConvertor w = new CurrencyConvertor();
         w.setVisible(true);
     }
-
     public void ConvertDollar() {
         if(convertTo.getSelectedItem()=="US Dollar")
         {
@@ -163,8 +161,7 @@ public class CurrencyConvertor extends Frame implements ItemListener, ActionList
             {
                 ConvertYen();
             }
-        }
-      
+        }      
         else
         {
             dispose();
